@@ -1,8 +1,6 @@
 lambdaBase
 ==========
 
-This module is for evaluation of lambdaBase programmes after parsing (see the eval function).
-
 The language is simple. There is 2 'thing' : lambda and literals.
 Lambda are in the form :
 
