@@ -19,11 +19,17 @@ In the presence of "add 123 321" the first 2 tokens ( add and 123 ) will be conv
 To step to reducing "add 123 321" will be:
 
 > add 123 321
+
 > (toLit add) 123 321
+
 > (litAdd) (toLit 123) 321
+
 > (apply lit lit123) 321
+
 > litAdd123 321
+
 > litAdd123_321
+
 > lit444
 
 For an example of an emplementation of the Lit class, see the LambdaLit packaged.
